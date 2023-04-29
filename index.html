@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="Tic Tac Toe.css">
+    <title>index</title>
+    </head>
+    <body>
+      <script>
+        var nombre;
+		 
+     var nombre1 = prompt("Ingresa nombre de jugador 1");
+         var nombre2 = prompt("Ingresa nombre de jugador 2");
+     
+     function saludo(){
+           document.write("Hola, tengan un buen día " + nombre1 + " " + "y " + "  "+nombre2);
+        }
+       
+      saludo();
+        
+        (function(){
+            var saludo = function(){
+                alert("Saludo");
+            
+        };
+     var boton = document.getElementById("boton");
+            boton.addEventListener("c", saludo);
+                
+        }())
+ 
+      </script>
+        <header>
+        <div class="conteiner">
+           <div class="logo">
+             <img src="https://images.cooltext.com/5627538.png" alt="Tic Tac Toe">
+           </div>
+           <nav class="menu">
+               <ul>
+                <li><a href="totito.html">Inicio</a></li>
+                <li><a href="">Registro</a></li>
+                <li><a href="">Contacto</a></li>
+               </ul>
+             </nav>
+          </div>
+        </header>
+        <div class="contenedor">
+            <div class="score">
+                 <span class="player1Score"></span>
+                 <span class="player2Score"></span>
+            </div>
+            <div class="gameField">
+                 <div class="cells">
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                 </div>
+
+                 <div class="cells">
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                </div>
+
+                <div class="cells">
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                       <span class="cell"></span>
+                </div>
+            </div>
+            <div class="newGame">
+               <button class="restart"><a href="file:///C:/Users/Justin/Desktop/Tic%20Tac%20Toe.html">Reiniciar</a> </button>
+            </div>
+        </div>
+      
+      <script src="totito.html"></script>
+    </body>
+</html>

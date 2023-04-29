@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ 
+ 
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #C9EBEF;
+ 
+ 
+ }
+ 
+ 
+ 
+ .conteiner{
+     width: 95%;
+     max-width:1000px;
+     margin: auto;
+     
+  }
+   
+      
+  
+  header nav{
+      background:#03363D;
+      margin-bottom: 100px ;
+      -webkit-transition: all ease .5;
+      -o-transition: all ease .5;
+      transition: all ease .5;
+  
+  }    
+  
+      header nav ul{
+          list-style:none;
+          overflow: hidden;
+  
+      }
+         
+          header nav ul li{
+            float: left;
+  
+          }
+             
+              header nav ul li a{
+                  display: block;
+                  padding: 25px;
+                  color: white;
+                  text-decoration: none;
+              }
+       
+                    header nav ul li a:hover{
+                        border: 6px solid #000000;
+                    background: #52e4e4;
+                    color: darkblue;
+                  }
+ 
+ .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+ }
+ 
+ .gameField{
+    width: 300px;
+    height: 300px;
+ }
+ 
+ 
+ .cells{
+     display: flex;
+ 
+ }
+ 
+ .cell{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    color:blueviolet ;
+    border: 3px solid black;
+ }
+ 
+ .score{
+     display: flex;
+     justify-content: space-between;
+     width: 300px;
+     font-size: 20px;
+ }
+ .restart{
+     margin-top: 10px;
+     background-color: #174D4D;
+     color: white;
+     border: 6px solid #1a1735;
+     padding: 10px;
+     font-size: 15px;
+     cursor: pointer;
+     transition: all ease 0.5s;
+ }
+ 
+ 
+ .restart:hover{
+    border: 6px solid #000000;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+    
+ }
